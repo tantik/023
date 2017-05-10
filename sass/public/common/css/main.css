@@ -1,0 +1,240 @@
+/* reset css */
+* {
+  -webkit-text-size-adjust: none; }
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+html {
+  height: 100%;
+  background: #fff;
+  -webkit-text-size-adjust: none; }
+
+body {
+  min-height: 100%;
+  font-family: Meiryo, Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  position: relative;
+  background: #fff;
+  color: #333;
+  font-size: 18px;
+  line-height: 30px; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+a {
+  color: #46b255;
+  text-decoration: none;
+  cursor: pointer;
+  vertical-align: baseline;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0.4); }
+
+a:hover {
+  text-decoration: none; }
+
+a img {
+  transition: all 0.5s ease; }
+
+a:hover img {
+  -moz-opacity: 0.7;
+  opacity: 0.7; }
+
+table {
+  border-collapse: collapse; }
+
+input, select {
+  vertical-align: middle; }
+
+.holder {
+  margin: 0 auto;
+  max-width: 980px; }
+  .holder:after {
+    content: '';
+    display: block;
+    clear: both; }
+
+.sp,
+.hidden {
+  display: none; }
+
+.pc {
+  display: block; }
+
+/* Smartphone */
+@media only screen and (max-width: 736px) {
+  .sp {
+    display: block !important; }
+  .pc {
+    display: none !important; } }
+
+/* layout parts */
+/* header */
+#header {
+  position: relative;
+  overflow: hidden;
+  background: url("../images/bg-header.jpg") no-repeat 100% 0;
+  background-size: auto 100%; }
+  #header:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 53.714%;
+    height: 252px;
+    background: url("../images/bg-blue-header.png") no-repeat 100% 0;
+    overflow: hidden;
+    z-index: 1; }
+  #header .holder {
+    padding: 21px 0 38px;
+    position: relative;
+    z-index: 2; }
+    #header .holder .logo {
+      margin-bottom: 37px;
+      width: 154px;
+      height: 26px;
+      background: url("../images/logo.png") no-repeat;
+      text-indent: -9999px;
+      overflow: hidden; }
+      #header .holder .logo a {
+        display: block;
+        height: 100%; }
+    #header .holder .header-title {
+      width: 595px;
+      margin-bottom: 16px;
+      padding: 46px 0 5px;
+      border-bottom: 1px solid #5c5c5c;
+      position: relative; }
+      #header .holder .header-title p {
+        font: 23px/1.2 "HiraKakuPro W3", Arial, Helvetica, san-serif;
+        margin: 0; }
+      #header .holder .header-title .bubble {
+        position: absolute;
+        top: 0;
+        right: 7px;
+        width: 222px;
+        height: 70px;
+        background: url("../images/bg-bubble-header.png") no-repeat;
+        text-align: center;
+        font: bold 23px/60px "HiraKakuStd W8", Arial, Helvetica, san-serif;
+        color: #fff; }
+    #header .holder .special {
+      margin-bottom: 10px;
+      font: bold 31px/1.4 "HiraKakuPro W6", Arial, Helvetica, san-serif; }
+      #header .holder .special mark {
+        color: #e83428; }
+    #header .holder .price {
+      margin-bottom: 16px;
+      font: bold 30px/60px "HiraKakuPro W6", Arial, Helvetica, san-serif; }
+      #header .holder .price mark {
+        font-size: 56px;
+        line-height: 60px;
+        color: #487caf; }
+      #header .holder .price span {
+        font-size: 56px;
+        line-height: 60px; }
+      #header .holder .price em {
+        font-style: normal;
+        font-size: 20px;
+        line-height: 60px; }
+    #header .holder .languages {
+      margin-bottom: 20px;
+      overflow: hidden; }
+      #header .holder .languages .lang {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 5px; }
+      #header .holder .languages span {
+        display: inline-block;
+        vertical-align: top;
+        font: 18px/40px "HiraKakuPro W3", Arial, Helvetica, san-serif;
+        margin-left: 5px; }
+    #header .holder .txt {
+      margin-bottom: 20px;
+      font: 18px/26px "HiraKakuPro W3", Arial, Helvetica, san-serif;
+      max-width: 720px; }
+
+/* footer */
+/* styles */
+#wrapper {
+  position: relative;
+  overflow: hidden; }
+
+.blue-title {
+  background: #487caf;
+  color: #fff;
+  padding: 42px 0 40px;
+  text-align: center; }
+  .blue-title h2 {
+    font-size: 36px;
+    line-height: 50px; }
+    .blue-title h2 em {
+      font-style: normal;
+      font-size: 24px;
+      line-height: 50px;
+      vertical-align: top; }
+    .blue-title h2 span {
+      vertical-align: top; }
+
+/* correspondence box */
+.correspondence-box {
+  margin-bottom: 48px;
+  background: #bee8e0;
+  position: relative; }
+  .correspondence-box:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 32px;
+    background: #fff;
+    z-index: 1; }
+  .correspondence-box .holder {
+    position: relative;
+    z-index: 2;
+    background: url("../images/bg-correspondence.png") no-repeat 50% 0;
+    background-size: cover;
+    padding: 237px 0 32px;
+    min-height: 596px;
+    box-sizing: border-box;
+    overflow: hidden; }
+    .correspondence-box .holder .text {
+      width: 505px;
+      float: right;
+      font-size: 20px;
+      line-height: 34px; }
+
+/* experts box */
+.experts-box {
+  text-align: center; }
+  .experts-box h2 {
+    margin-bottom: 33px;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #42b095; }
+  .experts-box p {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 38px; }
+    .experts-box p strong {
+      font-size: 28px;
+      line-height: 38px; }
+  .experts-box .image {
+    margin-bottom: 60px; }
+    .experts-box .image img {
+      display: block;
+      width: 100%; }

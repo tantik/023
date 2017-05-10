@@ -1,0 +1,103 @@
+/* header */
+#header{
+	position: relative;
+	overflow: hidden;
+	background: url('../images/bg-header.jpg') no-repeat 100% 0;
+	-webkit-background-size: auto 100%;
+	background-size: auto 100%;
+	&:after{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 53.714%;
+		height: 252px;
+		background: url('../images/bg-blue-header.png') no-repeat 100% 0;
+		overflow: hidden;
+		z-index: 1;
+	}
+	.holder{
+		padding: 21px 0 38px;
+		position: relative;
+		z-index: 2;
+		.logo{
+			margin-bottom: 37px;
+			width: 154px;
+			height: 26px;
+			background: url('../images/logo.png') no-repeat;
+			text-indent: -9999px;
+			overflow: hidden;
+			a{
+				display: block;
+				height: 100%;
+			}
+		}
+		.header-title{
+			width: 595px;
+			margin-bottom: 16px;
+			padding: 46px 0 5px;
+			border-bottom: 1px solid #5c5c5c;
+			position: relative;
+			p{
+				font: 23px/1.2 "HiraKakuPro W3", Arial, Helvetica, san-serif;
+				margin: 0;
+			}
+			.bubble{
+				position: absolute;
+				top: 0;
+				right: 7px;
+				width: 222px;
+				height: 70px;
+				background: url('../images/bg-bubble-header.png') no-repeat;
+				text-align: center;
+				font: bold 23px/60px "HiraKakuStd W8", Arial, Helvetica, san-serif;
+				color: #fff;
+			}
+		}
+		.special{
+			margin-bottom: 10px;
+			font: bold 31px/1.4 "HiraKakuPro W6", Arial, Helvetica, san-serif;
+			mark{
+				color: #e83428;
+			}
+		}
+		.price{
+			margin-bottom: 16px;
+			font: bold 30px/60px "HiraKakuPro W6", Arial, Helvetica, san-serif;
+			mark{
+				font-size: 56px;
+				line-height: 60px;
+				color: #487caf;
+			}
+			span{
+				font-size: 56px;
+				line-height: 60px;
+			}
+			em{
+				font-style: normal;
+				font-size: 20px;
+				line-height: 60px;
+			}
+		}
+		.languages{
+			margin-bottom: 20px;
+			overflow: hidden;
+			.lang{
+				display: inline-block;
+				vertical-align: top;
+				margin-right: 5px;
+			}
+			span{
+				display: inline-block;
+				vertical-align: top;
+				font: 18px/40px "HiraKakuPro W3", Arial, Helvetica, san-serif;
+				margin-left: 5px;
+			}
+		}
+		.txt{
+			margin-bottom: 20px;
+			font: 18px/26px "HiraKakuPro W3", Arial, Helvetica, san-serif;
+			max-width: 720px;
+		}
+	}
+}
