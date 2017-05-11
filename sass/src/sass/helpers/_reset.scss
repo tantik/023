@@ -54,6 +54,14 @@ input, select{vertical-align: middle;}
 		display: block;
 		clear: both;
 	}
+	@media only screen and (max-width: 1000px) {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	@media only screen and (max-width: 736px) {
+		padding-left: 11px;
+		padding-right: 11px;
+	}
 }
 .sp,
 .hidden{
