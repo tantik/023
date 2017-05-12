@@ -17,11 +17,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.4117027">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+          <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sass/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4051">
-                  <caret line="1035" column="1" lean-forward="true" selection-start-line="1035" selection-start-column="1" selection-end-line="1035" selection-end-column="1" />
+                <state relative-caret-position="465">
+                  <caret line="1013" column="0" lean-forward="false" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -57,11 +57,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_footer.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sass/layout/_footer.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="506">
-                  <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+                <state relative-caret-position="352">
+                  <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -128,6 +128,7 @@
       <find>#form</find>
       <find>form-box</find>
       <find>$('#form-button').before('&lt;p class=&quot;itemInput&quot; style=&quot;text-align: center;&quot;&gt;入力項目はありません。&lt;br /&gt;次のページに進んでください。&lt;/p&gt;');</find>
+      <find>gray-boxes</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -136,10 +137,10 @@
         <option value="$PROJECT_DIR$/src/sass/helpers/_variables.scss" />
         <option value="$PROJECT_DIR$/src/sass/helpers/_reset.scss" />
         <option value="$PROJECT_DIR$/src/sass/layout/_header.scss" />
-        <option value="$PROJECT_DIR$/src/sass/main.scss" />
         <option value="$PROJECT_DIR$/src/javascripts/main.js" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/sass/layout/_footer.scss" />
+        <option value="$PROJECT_DIR$/src/sass/main.scss" />
       </list>
     </option>
   </component>
@@ -388,12 +389,12 @@
       <option name="presentableId" value="Default" />
       <updated>1494416922422</updated>
       <workItem from="1494416923576" duration="35925000" />
-      <workItem from="1494573630031" duration="5703000" />
+      <workItem from="1494573630031" duration="6179000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41628000" />
+    <option name="totallyTimeSpent" value="42104000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -518,14 +519,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/helpers/_variables.scss" />
-    <entry file="file://$PROJECT_DIR$/src/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4051">
-          <caret line="1035" column="1" lean-forward="true" selection-start-line="1035" selection-start-column="1" selection-end-line="1035" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sass/helpers/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-115">
@@ -558,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sass/layout/_footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="14" lean-forward="false" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-9457">
@@ -594,6 +579,22 @@
             <element signature="n#style#0;n#textarea#0;n#div#1;n#div#5;n#div#0;n#form#0;n#div#1;n#div#1;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1494579309624" expanded="true" signature="15934:15953" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/layout/_footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sass/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="1013" column="0" lean-forward="false" selection-start-line="1013" selection-start-column="0" selection-end-line="1013" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
