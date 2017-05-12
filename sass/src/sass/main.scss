@@ -1002,7 +1002,7 @@
 	top: 50%;
 	z-index: 985;
 	width: 94vw;
-	max-width: 900px;
+	max-width: 600px;
 	opacity: 0;
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.6);
@@ -1018,7 +1018,7 @@
 		}
 	}
 	&.video{
-		height: 60vh;
+		height: 40vh;
 		.hold{
 			height: 100%;
 			@include box-sizing;
