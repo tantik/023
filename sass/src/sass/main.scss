@@ -1017,6 +1017,21 @@
 			width: 100%;
 		}
 	}
+	&.video{
+		height: 60vh;
+		.hold{
+			height: 100%;
+			@include box-sizing;
+		}
+		@media only screen and (max-width: 736px) {
+			height: 70vh;
+		}
+	}
+	iframe{
+		display: block;
+		width: 100% !important;
+		height: 100% !important;
+	}
 	.popup-close{
 		position: absolute;
 		top: -15px;

@@ -7,6 +7,10 @@ function initPage(){
 	initPopup();
 	initLink();
 	initFooter();
+
+	$('.nomouse').bind('contextmenu', function(e) {
+		return false;
+	});
 }
 
 function initLink(){
