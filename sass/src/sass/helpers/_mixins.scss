@@ -18,18 +18,6 @@
 	-ms-justify-content: space-between;
 	justify-content: space-between;
 }
-@mixin space-around{
-	-webkit-justify-content: space-around;
-	-moz-justify-content: space-around;
-	-ms-justify-content: space-around;
-	justify-content: space-around;
-}
-@mixin center{
-	-webkit-align-items: center;
-	-moz-align-items: center;
-	-ms-align-items: center;
-	align-items: center;
-}
 @mixin fade($prop) {
 	-webkit-transition: $prop 0.5s ease;
 	-moz-transition: $prop 0.5s ease;
