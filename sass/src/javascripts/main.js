@@ -9,7 +9,6 @@ function initPage(){
 	initFooter();
 }
 
-
 function initLink(){
 	$('.anhor-link').click(function(e){
 		e.preventDefault();
@@ -68,7 +67,6 @@ function positionPopup(){
 		});
 	}
 }
-
 
 function initFooter() {
 	jQuery(document).on("scroll",function(){

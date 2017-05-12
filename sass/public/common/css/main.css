@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* reset css */
 * {
   -webkit-text-size-adjust: none; }
@@ -267,17 +268,17 @@ input, select {
       padding: 0 10px;
       text-align: center;
       float: left; }
-      #footer .holder .col h3 {
+      #footer .holder .col h2 {
         margin-bottom: 10px;
         font-size: 22px;
         line-height: 30px;
         font-weight: normal; }
-        #footer .holder .col h3 strong {
+        #footer .holder .col h2 strong {
           padding-left: 18px;
           background: url("../images/separator-l.png") no-repeat 0 50%;
           font-weight: normal;
           margin-right: -4px; }
-        #footer .holder .col h3 span {
+        #footer .holder .col h2 span {
           padding-right: 18px;
           margin-right: -4px;
           background: url("../images/separator-r.png") no-repeat 100% 50%; }
@@ -338,7 +339,7 @@ input, select {
         #footer .holder .col .btn:hover {
           opacity: 0.8; }
   @media only screen and (max-width: 1000px) {
-    #footer .holder .col h3 {
+    #footer .holder .col h2 {
       margin-bottom: 5px;
       font-size: 18px; }
     #footer .holder .col .phone a {
@@ -351,12 +352,58 @@ input, select {
     #footer .holder .col .btn {
       min-width: 1px;
       padding: 0 20px 0 50px; } }
+  @media only screen and (max-width: 736px) {
+    #footer .holder {
+      padding: 9px 2px; }
+      #footer .holder .col {
+        padding: 0 2px;
+        -ms-box-sizing: border-box;
+        box-sizing: border-box; }
+        #footer .holder .col h2 {
+          display: none; }
+        #footer .holder .col p {
+          font-size: 9px;
+          line-height: 15px;
+          text-align: center; }
+          #footer .holder .col p .sp-hidden {
+            display: none; }
+        #footer .holder .col .phone {
+          margin: 0; }
+          #footer .holder .col .phone a {
+            padding-left: 16px;
+            background-size: 13px 17px;
+            font-size: 18px;
+            line-height: 28px;
+            letter-spacing: 0; }
+        #footer .holder .col .btn {
+          font-size: 14px;
+          line-height: 15px;
+          border-bottom-width: 4px;
+          padding: 5px 30px;
+          min-width: 128px;
+          text-align: center; }
+          #footer .holder .col .btn span {
+            display: block; }
+          #footer .holder .col .btn:before {
+            left: 6px;
+            width: 16px;
+            height: 16px;
+            margin-top: -8px; }
+          #footer .holder .col .btn:after {
+            left: 12px;
+            margin-top: -4px;
+            border-top: 4px solid transparent;
+            border-left: 5px solid #e83428;
+            border-bottom: 4px solid transparent; } }
 
 /* styles */
 #wrapper {
   position: relative;
   padding-bottom: 146px;
   overflow: hidden; }
+  @media only screen and (max-width: 736px) {
+    #wrapper {
+      padding-bottom: 65px; } }
 
 .blue-title {
   background: #487caf;
@@ -796,6 +843,18 @@ input, select {
           font-size: 24px;
           line-height: 48px;
           overflow: hidden; }
+          .about-price .holder .box .hold .txt ul {
+            list-style: none; }
+            .about-price .holder .box .hold .txt ul li {
+              position: relative;
+              padding-left: 25px; }
+              .about-price .holder .box .hold .txt ul li:before {
+                content: '・';
+                position: absolute;
+                top: 0;
+                left: 0; }
+              .about-price .holder .box .hold .txt ul li span {
+                display: block; }
   @media only screen and (max-width: 1000px) {
     .about-price .holder {
       padding-left: 20px;
@@ -807,16 +866,42 @@ input, select {
         margin-bottom: 14px;
         font-size: 19px; }
       .about-price .holder .box {
-        padding: 20px 15px 10px; }
+        padding: 19px 12px 10px;
+        margin-bottom: 20px; }
         .about-price .holder .box h3 {
           font-size: 14px;
-          line-height: 26px; }
+          line-height: 26px;
+          margin-bottom: 10px; }
           .about-price .holder .box h3 strong {
             font-size: 26px;
             line-height: 26px; }
           .about-price .holder .box h3 span {
             font-size: 10px;
-            line-height: 26px; } }
+            line-height: 26px; }
+        .about-price .holder .box .hold .txt {
+          float: none;
+          width: 100%;
+          font-size: 12px;
+          line-height: 18px;
+          margin-bottom: 5px; }
+          .about-price .holder .box .hold .txt ul li {
+            margin-bottom: 6px;
+            padding-left: 12px; }
+            .about-price .holder .box .hold .txt ul li span {
+              display: inline-block;
+              vertical-align: top; }
+        .about-price .holder .box .hold .lang-list {
+          margin: 0 0 9px;
+          float: none;
+          width: 100%;
+          text-align: center; }
+          .about-price .holder .box .hold .lang-list li {
+            float: none;
+            width: 16.5%;
+            max-width: 60px;
+            display: inline-block;
+            vertical-align: top;
+            padding: 0; } }
 
 /* form box */
 .form-box .holder {
@@ -861,6 +946,36 @@ input, select {
   .form-box .holder {
     padding-left: 20px;
     padding-right: 20px; } }
+
+@media only screen and (max-width: 736px) {
+  .form-box .holder {
+    padding: 16px 10px 0; }
+    .form-box .holder .heading {
+      overflow: visible; }
+      .form-box .holder .heading:after {
+        content: '';
+        display: block;
+        clear: both; }
+      .form-box .holder .heading .img {
+        margin: 0 -15px 0 3px;
+        width: 113px; }
+      .form-box .holder .heading .txt {
+        padding: 20px 18px 0 0; }
+        .form-box .holder .heading .txt .bubble {
+          border-radius: 10px;
+          font-size: 15px;
+          line-height: 20px;
+          padding: 9px 5px 9px 10px;
+          text-align: left; }
+          .form-box .holder .heading .txt .bubble span {
+            display: block; }
+          .form-box .holder .heading .txt .bubble:after {
+            right: -18px;
+            top: auto;
+            bottom: 13px;
+            width: 18px;
+            height: 12px;
+            background-size: 18px 12px; } }
 
 /* included form */
 #form {
@@ -1028,6 +1143,31 @@ input, select {
     #form .form-buttons button {
       padding: 3px;
       font-size: 13px; }
+  @media only screen and (max-width: 736px) {
+    #form {
+      margin-bottom: 10px; }
+      #form .comform-wrap .comform-title {
+        margin-bottom: 5px;
+        font-size: 14px;
+        line-height: 1.4; }
+      #form .comform-wrap .comform-container .comform-row .itemTitle {
+        font-size: 12px;
+        line-height: 1.4; }
+      #form .comform-wrap .comform-container .comform-row .itemInput {
+        font-size: 12px; }
+        #form .comform-wrap .comform-container .comform-row .itemInput .choice-table td label {
+          font-size: 12px; }
+      #form .checkLabel {
+        font-size: 12px; }
+      #form .itemInput input[type="text"],
+      #form .itemInput input[type="email"],
+      #form .itemInput textarea,
+      #form .itemInput select {
+        -ms-box-sizing: border-box;
+        box-sizing: border-box;
+        font-size: 13px; }
+      #form #save-load-layer #save-load-buttons ul li button {
+        font-size: 12px; } }
 
 /* popups */
 .fader {

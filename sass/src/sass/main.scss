@@ -10,6 +10,9 @@
 	position: relative;
 	padding-bottom: 146px;
 	overflow: hidden;
+	@media only screen and (max-width: 736px) {
+		padding-bottom: 65px;
+	}
 }
 .blue-title{
 	background: #487caf;
@@ -547,6 +550,22 @@
 					font-size: 24px;
 					line-height: 48px;
 					overflow: hidden;
+					ul{
+						list-style: none;
+						li{
+							position: relative;
+							padding-left: 25px;
+							&:before{
+								content: '・';
+								position: absolute;
+								top: 0;
+								left: 0;
+							}
+							span{
+								display: block;
+							}
+						}
+					}
 				}
 			}
 		}
@@ -565,10 +584,12 @@
 				font-size: 19px;
 			}
 			.box{
-				padding: 20px 15px 10px;
+				padding: 19px 12px 10px;
+				margin-bottom: 20px;
 				h3{
 					font-size: 14px;
 					line-height: 26px;
+					margin-bottom: 10px;
 					strong{
 						font-size: 26px;
 						line-height: 26px;
@@ -576,6 +597,39 @@
 					span{
 						font-size: 10px;
 						line-height: 26px;
+					}
+				}
+				.hold{
+					.txt{
+						float: none;
+						width: 100%;
+						font-size: 12px;
+						line-height: 18px;
+						margin-bottom: 5px;
+						ul{
+							li{
+								margin-bottom: 6px;
+								padding-left: 12px;
+								span{
+									display: inline-block;
+									vertical-align: top;
+								}
+							}
+						}
+					}
+					.lang-list{
+						margin: 0 0 9px;
+						float: none;
+						width: 100%;
+						text-align: center;
+						li{
+							float: none;
+							width: 16.5%;
+							max-width: 60px;
+							display: inline-block;
+							vertical-align: top;
+							padding: 0;
+						}
 					}
 				}
 			}
@@ -636,6 +690,47 @@
 		.holder{
 			padding-left: 20px;
 			padding-right: 20px;
+		}
+	}
+	@media only screen and (max-width: 736px) {
+		.holder{
+			padding: 16px 10px 0;
+			.heading{
+				overflow: visible;
+				&:after{
+					content: '';
+					display: block;
+					clear: both;
+				}
+				.img{
+					margin: 0 -15px 0 3px;
+					width: 113px;
+				}
+				.txt{
+					padding: 20px 18px 0 0;
+					.bubble{
+						-webkit-border-radius: 10px;
+						-moz-border-radius: 10px;
+						border-radius: 10px;
+						font-size: 15px;
+						line-height: 20px;
+						padding: 9px 5px 9px 10px;
+						text-align: left;
+						span{
+							display: block;
+						}
+						&:after{
+							right: -18px;
+							top: auto;
+							bottom: 13px;
+							width: 18px;
+							height: 12px;
+							-webkit-background-size: 18px 12px;
+							background-size: 18px 12px;
+						}
+					}
+				}
+			}
 		}
 	}
 }
@@ -832,6 +927,47 @@
 		button{
 			padding: 3px;
 			font-size: 13px;
+		}
+	}
+	@media only screen and (max-width: 736px) {
+		margin-bottom: 10px;
+		.comform-wrap{
+			.comform-title{
+				margin-bottom: 5px;
+				font-size: 14px;
+				line-height: 1.4;
+			}
+			.comform-container{
+				.comform-row{
+					.itemTitle{
+						font-size: 12px;
+						line-height: 1.4;
+					}
+					.itemInput{
+						font-size: 12px;
+						.choice-table{
+							td{
+								label{
+									font-size: 12px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		.checkLabel{
+			font-size: 12px;
+		}
+		.itemInput input[type="text"],
+		.itemInput input[type="email"],
+		.itemInput textarea,
+		.itemInput select{
+			@include box-sizing;
+			font-size: 13px;
+		}
+		#save-load-layer #save-load-buttons ul li button{
+			font-size: 12px;
 		}
 	}
 }
